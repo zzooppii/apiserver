@@ -1,0 +1,28 @@
+﻿{
+  "**comment**" : "변수명 : 파일명 - 변수 설명",
+
+  "**coment_multichainport**" : "multichainport : ./middleware/multichain-connection.js - 멀티체인의 rpc 포트번호",
+  "multichainport" : "6460",
+  "**comment_multichainhost**" : "multichainhost : ./middleware/multichain-connection.js - 멀티체인 서버 ip 주소",
+  "multichainhost" : "127.0.0.1",
+  "**comment_multichainpwd**" : "multichainpwd: ./middleware/multichain-connection.js - 멀티체인 rpc 포트 접속 비밀번호",
+  "multichainpwd" : "5xSBZ6n5XYrhSuSmYPYrz59WM4px9EDJWyg2iF23UfoS",
+  "**comment_multichainAdminAddress**" : "multichainAdminAddress -멀티체인 관리자 주소",
+  "multichainAdminAddress" : "14E4BThSYRBrUCiVZmjuxTY8W4hYSkx1qjuUwk",
+
+  "**comment_mongodbserver**" : "mongodbserver : ./middleware/mongo-connection.js - 몽고디비 서버:포트/DB명",
+  "mongodbserver" : "mongodb://localhost:27017/QRPAYTEST",
+
+  "**comment_assetname**" : "assetname : 멀티체인에서 사용하는 asset이름. 멀티체인 설정시 asset을 생성할 때 사용한 asset name과 동일해야 한다.",
+  "assetname" : "QRPAYTEST",
+
+  "**comment_pwdURL**" : "pwdURL : ./controllers/findPwd - 비밀번호 변경후 사용자가 접근할 URL",
+  "pwdURL" : "https://www.qrscash.com",
+
+  "**comment_smtpGmail**" : "smtpGmail : ./middleware/email-verification-nev.js - 이메일 인증시 사용될 이메일",
+  "smtpGmail" : "forelinkg@gmail.com",
+  "**comment_smtpGmailPwd" : "smtpGmailPwd : ./middleware/email-verification-nev.js - 이메일 인증시 사용될 이메일의 비밀번호",
+  "smtpGmailPwd" : "forelink10!",
+  "**comment_emailSender**" : "emailSender : ./controllers/delete.js - 인증 메일 전송시 표기될 이메일 주소",
+  "emailSender" : "Green <cpscoin0@gmail.com>"
+}
